@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--External Sheet for icon-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Google Keep</title>
+</head>
+<body>
+    <nav>
+         <div class="logo area">
+          <div class="tooltip">
+             <i class="material-icons hoover">menu</i>
+             <span class="tooltip-text">Main menu</span>
+          </div>
+            <img src="https://www.gstatic.com/images/branding/product/1x/keep_2020q4_48dp.png"alt="Google Keep Logo">
+            <span class="logo text">keep</span>
+         </div>
+         <div class="search-area">
+            <div class="tooltip">
+                <i class="material-icons-background hover">search</i> 
+                <span class="tooltip-text">Main menu</span>
+             </div>
+                 <input type="text"placeholder="search">
+         </div>
+            <div class="tooltip">
+                <i class="material-icons hover">refresh</i>
+                <span class="tooltip-text">Main menu</span>
+            </div>
+            <div class="tooltip">
+                <i class="material-icons hover">grid_view</i>
+                <span class="tooltip-text">Main menu</span>
+            </div>
+            <div class="tooltip">
+                <i class="material-icons hover">settings</i>
+                <span class="tooltip-text">Main menu</span>
+            </div>
+          <div class="profile-area">
+            <div class="tooltip">
+                <i class="material-icons hover">apps</i>
+                <span class="tooltip-text">Main menu</span>
+            </div>
+          <div class="tooltip">
+            <i class="material-icons hover">account_circle</i>
+            <span class="tooltip-text">Main menu</span>
+          </div>
+    </nav>
+    <main>
+        <div class="note container">
+            <div class="sidebar-item">
+                <i class="material-icons hover active">lightbulb</i>
+                <span class="sidebar-text hover">Notes</span>
+            </div>
+            <div class="sidebar-item">
+                <i class="material-icons hover active">notifications</i>
+                <span class="sidebar-text">Remainders</span>
+            </div>
+            <div class="sidebar-item">
+                <i class="material-icons hover active">edit</i>
+                <span class="sidebar-text">Edit Labels</span>
+            </div>
+            <div class="sidebar-item">
+                <i class="material-icons hover active">archive</i>
+                <span class="sidebar-text">Archive</span>
+            </div>
+            <div class="sidebar-item">
+                <i class="material-icons hover active">delete</i>
+                <span class="sidebar-text">Trash</span>
+            </div>
+        <div class="sidebar">
+        </div>
+        <div class="form-container inactive-form">
+            <form>
+                <input id="note-title"type="text"class="note-title"placeholder=Take a note>
+                <div class="icon">
+                    <div class="toolltip">
+                        <i class="material-icons hover small icon">add_alert</i>
+                        <span class="tooltip-text">Remind me</span>
+                    </div>       
+                          <div class="toolltip">
+                            <i class="material-icons hover small icon">add_person</i>
+                            <span class="tooltip-text">Collaborate</span>
+                          </div>       
+                            <div class="toolltip">
+                                <i class="material-icons hover small icon">add_pallete</i>
+                                <span class="tooltip-text">Change colour</span>
+                            </div>     
+             </form>
+        </div>
+        <nav>
+         <div class="container">  
+        <div class="form-container active-form">
+            <form>
+                <input id="note-title"type="text"class="note-title"placeholder="Take a note">
+                <text area id="note -text"text class="note text"placeholder="Take a note"></text area>
+                <input id="note-text"text class="note text"placeholder="Take a note">
+                <div class="icon">
+                    <div class="toolltip">
+                        <i class="material-icons hover small icon">check_box</i>
+                        <span class="tooltip-text">New List</span>
+                    </div>       
+                          <div class="toolltip">
+                            <i class="material-icons hover small icon">brush</i>
+                            <span class="tooltip-text">New Drawing</span>
+                          </div>       
+                            <div class="toolltip">
+                                <i class="material-icons hover small icon">image</i>
+                                <span class="tooltip-text">New Image</span>
+                            </div>  
+                        </nav>                  
+             </form>
+             </div>
+            </main>
+
+</body>
+     <script src="./js/script.js"></script>
+</html>
